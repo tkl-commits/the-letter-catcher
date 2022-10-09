@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>The Letter Saver</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="panel">
+            <div id="showPoints">
+                <span>Points</span>
+                <span id="points">
+                    0
+                </span>
+            </div>
+            <div id="timer">20</div>
+            <div id="goldenLetterPoints">
+                <span>Golden Points</span>
+                <span id="goldenPoints">
+                    0
+                </span>
+            </div>
+        </div>
+        <div id="lettersDiv"></div>
+        <div id="scoreBoard">
+            <span id="scoreBoardHeader">Score Board</span>
+            <div id="totalPoints">Total Points:</div>
+            <div id="totalGoldenLetters">Golden Points:</div>
+            <div id="totalScore">Total Score:</div>
+        </div>
+        <button id="start-button" onclick="startGame()">Start</button>
+        <div id="black-hole"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
